@@ -48,10 +48,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q        &kp W            &kp E         &kp R              &kp T              &kp Y             &kp U               &kp I         &kp O             &kp P          &none
-&none  &HML CAPS A  &HML LEFT_ALT S  &HML LCTRL D  &HML LEFT_SHIFT F  &HML LEFT_WIN G    &HMR RIGHT_WIN H  &HML RIGHT_SHIFT J  &HML RCTRL K  &HMR RIGHT_ALT L  &HMR SQT SEMI  &none
-&none  &kp Z        &kp X            &kp C         &kp V              &kp B              &kp N             &kp M               &kp COMMA     &kp DOT           &kp FSLH       &none
-                                     &kp LGUI      &mo 1              &kp SPACE          &kp RET           &mo 2               &kp RALT
+&none  &HML RIGHT_BRACKET Q  &kp W            &kp E           &kp R              &kp T              &kp Y             &kp U               &kp I            &kp O             &HMR RIGHT_BRACKET P  &none
+&none  &HML CAPS A           &HML LEFT_ALT S  &HML LCTRL D    &HML LEFT_SHIFT F  &HML LEFT_WIN G    &HMR RIGHT_WIN H  &HML RIGHT_SHIFT J  &HML RCTRL K     &HMR RIGHT_ALT L  &HMR SQT SEMI         &none
+&none  &kp Z                 &kp X            &kp C           &kp V              &kp B              &kp N             &kp M               &kp COMMA        &kp DOT           &HMR BACKSLASH FSLH   &none
+                                              &kp LEFT_SHIFT  &lt 1 ENTER        &lt 3 TAB          &kp RET           &mo 2               &kp RIGHT_SHIFT
             >;
         };
 
@@ -82,6 +82,24 @@
 &none  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &none
 &none  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &none
                          &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans       &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &lt 4 BACKSPACE  &lt 2 SPACE  &trans
             >;
         };
     };
