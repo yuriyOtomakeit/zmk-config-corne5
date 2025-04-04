@@ -49,7 +49,17 @@
 
         Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <31 39>;
+            key-positions = <39 19>;
+        };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
+
+        Caps {
+            bindings = <&kp CLCK>;
+            key-positions = <4 3>;
         };
     };
 
