@@ -44,7 +44,7 @@
 
         Tab {
             bindings = <&kp TAB>;
-            key-positions = <38 28>;
+            key-positions = <38 16>;
         };
 
         Backspace {
