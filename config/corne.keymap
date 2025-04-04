@@ -61,6 +61,11 @@
             bindings = <&kp CLCK>;
             key-positions = <4 3>;
         };
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
     };
 
     keymap {
@@ -74,10 +79,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &HML RIGHT_BRACKET Q  &kp W            &kp E         &kp R              &kp T              &kp Y             &kp U               &kp I         &kp O             &HMR LEFT_BRACKET P  &none
-&none  &kp A                 &HML LEFT_ALT S  &HML LCTRL D  &HML LEFT_SHIFT F  &HML LEFT_WIN G    &HMR RIGHT_WIN H  &HML RIGHT_SHIFT J  &HML RCTRL K  &HMR RIGHT_ALT L  &HMR SQT SEMI        &none
-&none  &kp Z                 &kp X            &kp C         &kp V              &kp B              &kp N             &kp M               &kp COMMA     &kp DOT           &kp SLASH            &none
-                                              &mo 3         &mo 1              &kp SPACE          &kp ENTER         &mo 2               &mo 4
+&none  &HML RIGHT_BRACKET Q  &kp W            &kp E         &kp R              &kp T        &kp Y      &kp U               &kp I         &kp O             &HMR LEFT_BRACKET P  &none
+&none  &HML LEFT_WIN A       &HML LEFT_ALT S  &HML LCTRL D  &HML LEFT_SHIFT F  &kp G        &kp H      &HML RIGHT_SHIFT J  &HML RCTRL K  &HMR RIGHT_ALT L  &HMR SQT SEMI        &none
+&none  &kp Z                 &kp X            &kp C         &kp V              &kp B        &kp N      &kp M               &kp COMMA     &kp DOT           &kp SLASH            &none
+                                              &mo 3         &mo 1              &kp SPACE    &kp ENTER  &mo 2               &mo 4
             >;
         };
 
