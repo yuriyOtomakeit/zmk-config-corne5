@@ -108,10 +108,10 @@
 
         layer_3 {
             bindings = <
-&none  &trans     &trans     &kp LC(A)  &trans     &kp PRINTSCREEN    &kp N7        &kp N8        &kp N9        &kp MINUS   &kp SLASH     &none
-&none  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LG(L)          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS    &kp ASTERISK  &none
-&none  &trans     &trans     &trans     &trans     &trans             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL     &none
-                             &trans     &to 0      &trans             &trans        &kp N0        &kp DELETE
+&none  &trans     &trans     &kp LC(A)  &kp PAGE_UP    &kp PRINTSCREEN    &kp N7        &kp N8        &kp N9        &kp MINUS   &kp SLASH     &none
+&none  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)      &kp LG(L)          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS    &kp ASTERISK  &none
+&none  &trans     &trans     &trans     &kp PAGE_DOWN  &kp HOME           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL     &none
+                             &trans     &to 0          &trans             &trans        &kp N0        &kp DELETE
             >;
         };
 
